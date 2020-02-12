@@ -1,0 +1,255 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+MERGED from [:@react-native-community_datetimepicker] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-svg] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:@react-native-community_async-storage] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:realm] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /home/diego/.gradle/caches/transforms-2/files-2.1/44d4367692ea38af4a586abde4e2f02e/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /home/diego/.gradle/caches/transforms-2/files-2.1/1c523bad3e91b7e636630b7016b5be9a/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-linear-gradient] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/68d3ae9347dc7c10d60e77f688659308/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/171e5ebaedd45e0dce3cc000c832a1a7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/336bf0896315ab77ce9e5bbc1aeed1cf/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9af020f3bd8259ee4d88f3126709587d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/252565c1326af9ce6b2647c3c661f48c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/937c6c6e7e4c0c4950ae4db2fa9a191c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/74d1ddb500dc21e015f382f11c0ecdd8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/diego/.gradle/caches/transforms-2/files-2.1/2521f8b79c6234946691a0de8f943d0e/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c0a7ccead921fa8279edc25e7e42a873/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/a30e1e940d3e83810b526a3fe8b2ae0c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9119b40f2d76d602c461f6836c215cca/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/01b22047cd2ef4da1207106192271507/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/79a90621bfb03d9c2f4b53541b12fc80/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/0fc2147f790e9ce748584c28afa0b88c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/b5d4b1a45430401ab3d49b93000b6d8d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/548681260ed5e67476ce7280be9e6f71/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/3f911ee841e926dfcafcdd428bb7896f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/5fb7721022580afef20b627c17175a94/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c0a32cffb159b71e361f767a7aa4e0b9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/4d8dd7dfd82b11710d67dacb7fa551f7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/270d1332decfcf6342a3aa563139c939/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/bd24c64a2c8a54456719a81f8a2c7f81/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c9ac40066f9469386d531b307d6e4e3e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/cb4aed24659bd9192ea30bdc89d9cebd/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/17b1881bfc62a60dfedf903caaa235df/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/ecd20387ba1f6d686720cdca5dd40951/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/028ab8a8dbe1d8c0be670bef088fb217/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9afce1c65378bcbabd898fbbd14d1b3a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/de5215cbb37d1d5f1ca7d525c3c4524b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/5468f0fea652caa59a893659fde64fe2/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/fba2a5a059961350469d1519d1dca5e4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/7a97338fb14bdedf0863373f362b9adb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/42c47440052c04284a532b0205e31a5f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/0fe264010dc8ac6c442af44617b40f7d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c768997d41eb554f2db7c27eb9536778/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/4502c4a2108d0d6e7736c048dee8848d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/81a01f2fbb1d5a38a1987f56798b4c95/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c5bd6697f6c0f3a9cd9a1c47f5031294/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9abca273bd3d22fc56ca78167abfccf2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/506fa441c361c8cdb43752441a68b794/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+	package
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:2:3-43
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:1-25:12
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:6:5-23:19
+MERGED from [:@react-native-community_datetimepicker] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:@react-native-community_datetimepicker] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:realm] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:realm] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/diego/.gradle/caches/transforms-2/files-2.1/44d4367692ea38af4a586abde4e2f02e/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /home/diego/.gradle/caches/transforms-2/files-2.1/44d4367692ea38af4a586abde4e2f02e/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/diego/.gradle/caches/transforms-2/files-2.1/2521f8b79c6234946691a0de8f943d0e/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/diego/.gradle/caches/transforms-2/files-2.1/2521f8b79c6234946691a0de8f943d0e/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/028ab8a8dbe1d8c0be670bef088fb217/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/028ab8a8dbe1d8c0be670bef088fb217/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/5468f0fea652caa59a893659fde64fe2/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/5468f0fea652caa59a893659fde64fe2/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/028ab8a8dbe1d8c0be670bef088fb217/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:8:7-39
+	android:icon
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:10:7-34
+	android:theme
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:11:7-38
+	android:name
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#br.com.dgc.controle_financeiro.MainActivity
+ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:12:7-21:18
+	android:label
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:14:9-41
+	android:windowSoftInputMode
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:16:9-51
+	android:configChanges
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:15:9-79
+	android:name
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:13:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:17:9-20:25
+action#android.intent.action.MAIN
+ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:18:13-65
+	android:name
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:18:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:19:13-73
+	android:name
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:19:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:22:7-84
+	android:name
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml:22:17-81
+uses-sdk
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+MERGED from [:@react-native-community_datetimepicker] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_datetimepicker] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-svg/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:@react-native-community_async-storage] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:@react-native-community_async-storage] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:realm] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:realm] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/realm/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/diego/.gradle/caches/transforms-2/files-2.1/44d4367692ea38af4a586abde4e2f02e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /home/diego/.gradle/caches/transforms-2/files-2.1/44d4367692ea38af4a586abde4e2f02e/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/diego/.gradle/caches/transforms-2/files-2.1/1c523bad3e91b7e636630b7016b5be9a/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/diego/.gradle/caches/transforms-2/files-2.1/1c523bad3e91b7e636630b7016b5be9a/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /home/diego/Documentos/Programaçao/gestao_morena/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/68d3ae9347dc7c10d60e77f688659308/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/68d3ae9347dc7c10d60e77f688659308/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/171e5ebaedd45e0dce3cc000c832a1a7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/171e5ebaedd45e0dce3cc000c832a1a7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/336bf0896315ab77ce9e5bbc1aeed1cf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/336bf0896315ab77ce9e5bbc1aeed1cf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9af020f3bd8259ee4d88f3126709587d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9af020f3bd8259ee4d88f3126709587d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/252565c1326af9ce6b2647c3c661f48c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/252565c1326af9ce6b2647c3c661f48c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/937c6c6e7e4c0c4950ae4db2fa9a191c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/937c6c6e7e4c0c4950ae4db2fa9a191c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/74d1ddb500dc21e015f382f11c0ecdd8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/74d1ddb500dc21e015f382f11c0ecdd8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/diego/.gradle/caches/transforms-2/files-2.1/2521f8b79c6234946691a0de8f943d0e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/diego/.gradle/caches/transforms-2/files-2.1/2521f8b79c6234946691a0de8f943d0e/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c0a7ccead921fa8279edc25e7e42a873/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c0a7ccead921fa8279edc25e7e42a873/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/a30e1e940d3e83810b526a3fe8b2ae0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/a30e1e940d3e83810b526a3fe8b2ae0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9119b40f2d76d602c461f6836c215cca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9119b40f2d76d602c461f6836c215cca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/01b22047cd2ef4da1207106192271507/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/01b22047cd2ef4da1207106192271507/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/79a90621bfb03d9c2f4b53541b12fc80/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/79a90621bfb03d9c2f4b53541b12fc80/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/0fc2147f790e9ce748584c28afa0b88c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/0fc2147f790e9ce748584c28afa0b88c/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/b5d4b1a45430401ab3d49b93000b6d8d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/b5d4b1a45430401ab3d49b93000b6d8d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/548681260ed5e67476ce7280be9e6f71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/548681260ed5e67476ce7280be9e6f71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/3f911ee841e926dfcafcdd428bb7896f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/3f911ee841e926dfcafcdd428bb7896f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/5fb7721022580afef20b627c17175a94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/5fb7721022580afef20b627c17175a94/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c0a32cffb159b71e361f767a7aa4e0b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c0a32cffb159b71e361f767a7aa4e0b9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/4d8dd7dfd82b11710d67dacb7fa551f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/4d8dd7dfd82b11710d67dacb7fa551f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/270d1332decfcf6342a3aa563139c939/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/270d1332decfcf6342a3aa563139c939/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/bd24c64a2c8a54456719a81f8a2c7f81/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/bd24c64a2c8a54456719a81f8a2c7f81/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c9ac40066f9469386d531b307d6e4e3e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c9ac40066f9469386d531b307d6e4e3e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/cb4aed24659bd9192ea30bdc89d9cebd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/cb4aed24659bd9192ea30bdc89d9cebd/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/17b1881bfc62a60dfedf903caaa235df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/17b1881bfc62a60dfedf903caaa235df/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/ecd20387ba1f6d686720cdca5dd40951/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/ecd20387ba1f6d686720cdca5dd40951/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/028ab8a8dbe1d8c0be670bef088fb217/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/028ab8a8dbe1d8c0be670bef088fb217/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9afce1c65378bcbabd898fbbd14d1b3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9afce1c65378bcbabd898fbbd14d1b3a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/de5215cbb37d1d5f1ca7d525c3c4524b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/de5215cbb37d1d5f1ca7d525c3c4524b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/5468f0fea652caa59a893659fde64fe2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/5468f0fea652caa59a893659fde64fe2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/fba2a5a059961350469d1519d1dca5e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/fba2a5a059961350469d1519d1dca5e4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/7a97338fb14bdedf0863373f362b9adb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/7a97338fb14bdedf0863373f362b9adb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/42c47440052c04284a532b0205e31a5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/42c47440052c04284a532b0205e31a5f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/0fe264010dc8ac6c442af44617b40f7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/0fe264010dc8ac6c442af44617b40f7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c768997d41eb554f2db7c27eb9536778/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c768997d41eb554f2db7c27eb9536778/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/4502c4a2108d0d6e7736c048dee8848d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/diego/.gradle/caches/transforms-2/files-2.1/4502c4a2108d0d6e7736c048dee8848d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/81a01f2fbb1d5a38a1987f56798b4c95/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/81a01f2fbb1d5a38a1987f56798b4c95/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c5bd6697f6c0f3a9cd9a1c47f5031294/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/c5bd6697f6c0f3a9cd9a1c47f5031294/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9abca273bd3d22fc56ca78167abfccf2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/9abca273bd3d22fc56ca78167abfccf2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/506fa441c361c8cdb43752441a68b794/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/diego/.gradle/caches/transforms-2/files-2.1/506fa441c361c8cdb43752441a68b794/AndroidManifest.xml:20:5-44
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/AndroidManifest.xml

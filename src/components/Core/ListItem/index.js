@@ -61,7 +61,7 @@ export default function ListItem({ item, onEntryPress, screen = false, editItemS
                 <View style={styles.containerPriceQty}>
                     <View style={styles.containerValues}>
                         <Icon name='local-offer' size={20} color={Colors.lightPrimaryColor}></Icon>
-                        <Text style={styles.txtPrices}>{item.amount}</Text>
+                        <Text style={styles.txtPrices}><Currency value={item.amount}/></Text>
                     </View>
                     <View style={styles.containerValues}>
                         <Text style={{ color: Colors.lightPrimaryColor }}>x </Text>

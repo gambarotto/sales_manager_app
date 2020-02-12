@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, ActivityIndicator, StyleSheet } from 'react-native';
+import { View, ImageBackground, Text, ActivityIndicator, StyleSheet } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage'
 
 import usePeriod from '../../hooks/usePeriod'
@@ -64,14 +64,20 @@ export default function Loading({ navigation }) {
 
             }
         }
-
-        verifyPeriod()
+        setTimeout(() => verifyPeriod(),1000)
+        
 
     }, [])
 
     return (
         <View style={styles.container}>
-            {/*<ActivityIndicator color={Colors.accentColor2} size={40}/>*/}
+            <View style={styles.containerImage}>
+                <ImageBackground style={styles.img} source={require('../../assets/images/finances-logo-ok.png')}>
+                
+                    {/*<Text style={styles.txt}>Controle de Vendas</Text>*/}
+                </ImageBackground>
+            </View>
+    {<ActivityIndicator color={Colors.accentColor2} size={40}/>}
         </View>
     );
 }
@@ -80,6 +86,24 @@ const styles = StyleSheet.create({
     container: {
         flex:1,
         justifyContent:'center',
-        alignItems:'center'
+        alignItems:'center',
+        backgroundColor:Colors.defaultPrimaryColor
     },
+    containerImage:{
+        width:450,
+        height:450,
+        
+//        backgroundColor:Colors.lightPrimaryColor
+    },
+    img:{
+        width:'100%',
+        height:'100%',
+        alignItems:'center',
+        justifyContent:'flex-end'
+    },
+    txt:{
+        color:Colors.lightPrimaryColor,
+        fontSize:46,
+        marginBottom:50
+    }
 })

@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'gestao_morena' do
-  # Pods for gestao_morena
+target 'ControledeVendas' do
+  # Pods for ControledeVendas
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -40,7 +40,7 @@ target 'gestao_morena' do
 
   pod 'RNDateTimePicker', :path => '../node_modules/@react-native-community/datetimepicker'
 
-  target 'gestao_morenaTests' do
+  target 'ControledeVendasTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -48,10 +48,10 @@ target 'gestao_morena' do
   use_native_modules!
 end
 
-target 'gestao_morena-tvOS' do
-  # Pods for gestao_morena-tvOS
+target 'ControledeVendas-tvOS' do
+  # Pods for ControledeVendas-tvOS
 
-  target 'gestao_morena-tvOSTests' do
+  target 'ControledeVendas-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

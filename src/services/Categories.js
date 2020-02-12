@@ -5,14 +5,14 @@ import {getRealm} from './Realm'
 export const getDefaultCategories = () =>{
     return [
         {
-            id:getUUID(),
+            id:'1',
             name:'Fashion',
             isInit:true,
             order:0,
             color:Colors.turquese,
         },
         {
-            id:getUUID(),
+            id:'2',
             name:'Plus Size',
             isInit:true,
             order:1,
@@ -20,7 +20,7 @@ export const getDefaultCategories = () =>{
 
         },
         {
-            id:getUUID(),
+            id:'3',
             name:'Cintas',
             isInit:true,
             order:2,
@@ -28,7 +28,7 @@ export const getDefaultCategories = () =>{
             
         },
         {
-            id:getUUID(),
+            id:'4',
             name:'Infantil/Juvenil',
             isInit:true,
             order:3,
@@ -36,7 +36,7 @@ export const getDefaultCategories = () =>{
 
         },
         {
-            id:getUUID(),
+            id:'5',
             name:'Roupa de Ginástica',
             isInit:true,
             order:4,
@@ -44,14 +44,14 @@ export const getDefaultCategories = () =>{
 
         },
         {
-            id:getUUID(),
+            id:'6',
             name:'Sensual',
             isInit:true,
             order:5,
             color:Colors.redDark,
         },
         {
-            id:getUUID(),
+            id:'7',
             name:'Meia',
             isInit:true,
             order:6,
@@ -59,7 +59,7 @@ export const getDefaultCategories = () =>{
 
         },
         {
-            id:getUUID(),
+            id:'8',
             name:'Cueca',
             isInit:true,
             order:7,
@@ -67,7 +67,7 @@ export const getDefaultCategories = () =>{
 
         },
         {
-            id:getUUID(),
+            id:'9',
             name:'Pijama e Camisola',
             isInit:true,
             order:8,
@@ -75,7 +75,7 @@ export const getDefaultCategories = () =>{
 
         },
         {
-            id:getUUID(),
+            id:'10',
             name:'Calcinha',
             isInit:true,
             order:9,
@@ -83,7 +83,7 @@ export const getDefaultCategories = () =>{
 
         },
         {
-            id:getUUID(),
+            id:'11',
             name:'Sutiã',
             isInit:true,
             order:10,
@@ -91,7 +91,7 @@ export const getDefaultCategories = () =>{
 
         },
         {
-            id:getUUID(),
+            id:'12',
             name:'Conjunto',
             isInit:true,
             order:11,

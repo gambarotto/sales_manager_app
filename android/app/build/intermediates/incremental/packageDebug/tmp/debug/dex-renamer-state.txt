@@ -1,4 +1,4 @@
-#Fri Feb 07 12:35:34 BRT 2020
+#Tue Feb 11 15:52:50 BRT 2020
 base.0=/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 path.0=classes.dex

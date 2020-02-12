@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableOpacity ,StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 import useBalance from '../../../hooks/useBalance'
 
@@ -9,9 +9,17 @@ import ContainerTitle from '../../Core/ContainerTitle'
 import Colors from '../../../styles/Colors'
 // import { Container } from './styles';
 
-export default function MainPainelValues({title,days, handleChangePeriod}) {
+export default function MainPainelValues({
+    title,
+    days,
+    handleChangePeriod,
+    initial,
+    final,
+    idPeriod
+}) {
 
-    const [balance,balanceLiq,balance35,balanceDiscountedValue ] = useBalance(days)
+    const [balance, balanceLiq, balance35, balanceDiscountedValue] = useBalance(
+        days, initial, final, idPeriod)
 
     return (
         <View style={styles.containerAmount}>
@@ -23,22 +31,22 @@ export default function MainPainelValues({title,days, handleChangePeriod}) {
                 </TouchableOpacity>
             </ContainerTitle>
             <View style={styles.containerSales}>
-               <MainValuesItems 
+                <MainValuesItems
                     title="Venda Bruta"
                     value={balance}
-               />
-               <MainValuesItems 
+                />
+                <MainValuesItems
                     title="Vendas Com Desconto"
                     value={balanceDiscountedValue}
-               />
-               <MainValuesItems 
+                />
+                <MainValuesItems
                     title="Liquido"
                     value={balanceLiq}
-               />
-               <MainValuesItems
+                />
+                <MainValuesItems
                     title="Entregando na data"
                     value={balance35}
-               />
+                />
             </View>
         </View>
     );
@@ -55,5 +63,5 @@ const styles = StyleSheet.create({
         fontSize: 20,
         color: Colors.lightPrimaryColor,
         alignSelf: 'center'
-      },
+    },
 })

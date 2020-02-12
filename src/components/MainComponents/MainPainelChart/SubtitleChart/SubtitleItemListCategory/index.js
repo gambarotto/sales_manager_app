@@ -19,6 +19,11 @@ export default function SubtitleItemListCategory({ item }) {
                     <Currency value={item.totalAmount} />
                 </Text>
             </View>
+            <View style={styles.containerItem}>
+                <Text style={styles.txtBruto}>
+                    {item.qty}
+                </Text>
+            </View>
 
         </View>
     );
@@ -26,26 +31,29 @@ export default function SubtitleItemListCategory({ item }) {
 
 const styles = StyleSheet.create({
     container: {
-        flex:1,
+        flex: 1,
         //backgroundColor:'blue',
         flexDirection: 'row',
         justifyContent: 'flex-start',
         alignItems: 'center',
-        paddingTop:5,
-        paddingHorizontal:5,
-        marginLeft:5
+        paddingTop: 5,
+        paddingHorizontal: 5,
+        marginLeft: 5
     },
-    indicator:{
-        width:16,
-        height:16,
-        borderRadius:15,
-        borderWidth:0.5,
-        borderColor:Colors.defaultPrimaryColor,
+    indicator: {
+        width: 16,
+        height: 16,
+        borderRadius: 15,
+        borderWidth: 0.5,
+        borderColor: Colors.defaultPrimaryColor,
         //backgroundColor:'red',
     },
     containerItem: {
         width: 110,
-        paddingHorizontal:10
+        paddingHorizontal: 10,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
         //backgroundColor: 'red'
     },
     txtCategory: {
@@ -58,6 +66,6 @@ const styles = StyleSheet.create({
         color: Colors.lightPrimaryColor,
         fontSize: 18,
         paddingLeft: 5,
-        fontWeight:'bold'
+        fontWeight: 'bold'
     },
 })

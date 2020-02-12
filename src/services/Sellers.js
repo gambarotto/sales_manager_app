@@ -5,21 +5,21 @@ import {getRealm} from './Realm'
 export const getDefaultSellers = () =>{
     return [
         {
-            id:getUUID(),
+            id:'1',
             name:'Daiana',
             color:Colors.violetDark,
             isInit:true,
             order:0,
         },
         {
-            id:getUUID(),
+            id:'2',
             name:'Noemia',
             color:Colors.greenDark,
             isInit:true,
             order:1,
         },
         {
-            id:getUUID(),
+            id:'3',
             name:'Diego',
             color:Colors.blue,
             isInit:true,

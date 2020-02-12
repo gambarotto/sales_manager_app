@@ -84,6 +84,10 @@
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/color/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher.xml"
+    },
+    {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -134,6 +138,10 @@
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v26_ic_foreground.png.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-xhdpi-v26/ic_foreground.png"
     },
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
@@ -480,6 +488,10 @@
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/res/layout/design_layout_tab_icon.xml"
     },
     {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-ldpi-v26_ic_launcher.xml.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher.xml"
+    },
+    {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -602,6 +614,10 @@
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/color_switch_thumb_material_light.xml.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -804,6 +820,10 @@
         "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v26_ic_foreground.png.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-hdpi-v26/ic_foreground.png"
+    },
+    {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -820,12 +840,12 @@
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
-        "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/res/layout/design_layout_snackbar.xml"
-    },
-    {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat",
+        "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/res/layout/design_layout_snackbar.xml"
     },
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
@@ -842,6 +862,10 @@
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-mdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/color_mtrl_chip_text_color.xml.flat",
@@ -908,6 +932,10 @@
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
     },
     {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-ldpi-v26_ic_foreground.png.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-ldpi-v26/ic_foreground.png"
+    },
+    {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -934,6 +962,10 @@
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material_anim.xml.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-mdpi-v26_ic_foreground.png.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-mdpi-v26/ic_foreground.png"
     },
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1092,6 +1124,10 @@
         "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v26_ic_foreground.png.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_foreground.png"
+    },
+    {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -1110,6 +1146,10 @@
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-ldpi/ic_launcher.png"
     },
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
@@ -1628,6 +1668,10 @@
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/e9d0c19b9b8f8de5e097cdd2ddb224ee/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
     },
     {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v26_ic_foreground.png.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-xxhdpi-v26/ic_foreground.png"
+    },
+    {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_list_divider_material.xml.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-v21/abc_list_divider_material.xml"
     },
@@ -1698,6 +1742,10 @@
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat",
@@ -2050,6 +2098,10 @@
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/diego/.gradle/caches/transforms-2/files-2.1/744a6bd258a0e936223d04b298a21a55/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/mipmap-hdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/diego/Documentos/Programaçao/gestao_morena/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",

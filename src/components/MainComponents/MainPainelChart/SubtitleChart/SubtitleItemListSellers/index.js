@@ -17,13 +17,13 @@ export default function LegendItemListSellers({ item }) {
             </View>
             <View style={styles.containerItem}>
                 <Text style={styles.txtBruto}>
-                    <Currency value={item.totalAmount}/>
+                    <Currency value={item.discountedValue}/>
                 </Text>
             </View>
             <View style={styles.containerItem}>
                 
                 <Text style={styles.txtLiq}>
-                    <Currency value={item.discountedValue}/> 
+                    <Currency value={item.totalAmountLiq}/> 
                 </Text>
             </View>
         </View>

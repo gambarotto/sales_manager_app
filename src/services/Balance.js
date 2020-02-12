@@ -126,6 +126,7 @@ export const getBalanceByCategory = async (days = 7, showOthers = true, period) 
         .map(entry => ({
             category: _.omit(entry[0].category, 'entries'),
             totalAmount: Math.abs(_.sumBy(entry, 'totalAmount')),
+            qty:Math.abs(_.sumBy(entry,'qty'))
         }))
         .filter(({ totalAmount }) => totalAmount > 0)
         .orderBy('totalAmount', 'desc')
@@ -153,7 +154,7 @@ export const getBalanceByCategory = async (days = 7, showOthers = true, period) 
     return entries
 }
 
-export const getBalance = async (days = 7, type = 'total') => {
+export const getBalance = async (days = 7, type = 'total', period) => {
     const realm = await getRealm()
 
     let balance = realm.objects('Entry')
@@ -161,6 +162,15 @@ export const getBalance = async (days = 7, type = 'total') => {
     if (days > 0) {
         const date = moment().subtract(days, 'days').toDate()
         balance = balance.filtered('entryAt >= $0', date)
+    }
+    if (period && period.id) {
+        const initialDate = moment(period.initialDate).toDate()
+        const finalDate = moment(period.finalDate).toDate()
+        balance = balance.filtered(`entryAt >= $0`, initialDate)
+        balance = balance.filtered(`entryAt <= $0`, finalDate)
+        // balance = balance.filtered(`entryAt >= "${initialDate}" AND entryAt <= "${finalDate}"`)
+        // console.log('aq ', initialDate, finalDate);
+        
     }
 
     const valueTotal = balance.sum('totalAmount')

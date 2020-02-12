@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ScrollView,Text, View, StyleSheet, TouchableOpacity } from 'react-native';
+import { ScrollView, Text, View, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons'
 
 import usePeriod from '../../hooks/usePeriod'
@@ -14,9 +14,9 @@ import Colors from '../../styles/Colors'
 export default function Main({ navigation }) {
 
   const modalPeriod = navigation.getParam('modal', {
-    id:'',
-    initialDate:'',
-    finalDate:''
+    id: '',
+    initialDate: '',
+    finalDate: ''
   })
   const [getCurrentPeriod] = usePeriod()
 
@@ -25,36 +25,38 @@ export default function Main({ navigation }) {
   const [idPeriod, setIdPeriod] = useState(modalPeriod.id)
   const [periodAltered, setPeriodAltered] = useState(false)
 
-  const [category, setCategory] = useState({id:1, name:'Categorias'})
-  const [seller, setSeller] = useState({id:1, name:'Vendedor'})
+  const [category, setCategory] = useState({ id: 1, name: 'Categorias' })
+  const [seller, setSeller] = useState({ id: 1, name: 'Vendedor' })
   const [days, setDays] = useState(7)
   const [modalPeriodIsVisible, setModalPeriodIsVisible] = useState(modalPeriod.modal)
 
   useEffect(() => {
-    
-    async function loadCurrentPeriod(){
-      const data = await getCurrentPeriod()
 
-      setInitialPeriod(data.initialDate)
-      setFinalPeriod(data.finalDate)
-      setIdPeriod(data.id)
+    async function loadCurrentPeriod() {
+      const data = await getCurrentPeriod()
+      if(data){
+        setInitialPeriod(data.initialDate)
+        setFinalPeriod(data.finalDate)
+        setIdPeriod(data.id)
+      }
+
     }
     loadCurrentPeriod()
-  },[])
+  }, [])
 
-  useEffect(()=>{
+  useEffect(() => {
 
-  },[periodAltered])
+  }, [periodAltered])
 
   function onEntryPress(item) {
     navigation.navigate('Entry', { item })
   }
-  function clearQuery(){
-    setCategory({id:1, name:'Categorias'})
-    setSeller({id:1, name:'Vendedor'})
+  function clearQuery() {
+    setCategory({ id: 1, name: 'Categorias' })
+    setSeller({ id: 1, name: 'Vendedor' })
     setDays(7)
   }
-  function handleChangePeriod(){
+  function handleChangePeriod() {
     setModalPeriodIsVisible(true)
   }
 
@@ -62,9 +64,9 @@ export default function Main({ navigation }) {
 
     <View style={styles.container}>
       <View style={styles.containerInfo}>
-        <ScrollView style={{ height:'35%' }}>
-          <ModalPeriod 
-            isVisiblePeriod={modalPeriodIsVisible} 
+        <ScrollView style={{ height: '35%' }}>
+          <ModalPeriod
+            isVisiblePeriod={modalPeriodIsVisible}
             setIsVisiblePeriod={setModalPeriodIsVisible}
             id={idPeriod}
             initial={initialPeriod}
@@ -72,12 +74,15 @@ export default function Main({ navigation }) {
             final={finalPeriod}
             setFinal={setFinalPeriod}
             setPeriodAltered={setPeriodAltered} />
-          <MainPainelValues 
-            title={ initialPeriod &&
+          <MainPainelValues
+            title={initialPeriod &&
               `Vendas no periodo de ${moment(initialPeriod).format('DD/MM/YY')} até ${moment(finalPeriod).format('DD/MM/YY')}`
             }
             days={days}
-            handleChangePeriod={handleChangePeriod} />
+            handleChangePeriod={handleChangePeriod}
+            initial={initialPeriod}
+            final={finalPeriod}
+            idPeriod={idPeriod} />
         </ScrollView>
         <View style={{ flex: 7 }}>
           <MainPainelChart
@@ -95,8 +100,8 @@ export default function Main({ navigation }) {
       </View>
 
       <View style={styles.containerList}>
-        <MainPainelList 
-          onEntryPress={onEntryPress} 
+        <MainPainelList
+          onEntryPress={onEntryPress}
           days={days}
           category={category}
           seller={seller}
@@ -107,7 +112,10 @@ export default function Main({ navigation }) {
       </View>
 
       <TouchableOpacity style={styles.buttonAdd} onPress={() => navigation.navigate('Entry')}>
-        <Icon name='add' size={46} color={Colors.lightPrimaryColor} />
+        {<Icon name='add' size={46} color={Colors.lightPrimaryColor} />}
+        {/*<View style={styles.containerImg}>
+          <Image style={styles.img} source={require('../../assets/images/finances-logo2-dark.png')} />
+        </View>*/}
       </TouchableOpacity>
     </View>
 
@@ -140,5 +148,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     elevation: 5
+  },
+  containerImg:{
+    width:65,
+    height:60
+  },
+  img:{
+    width:'100%',
+    height:'100%'
   }
 })

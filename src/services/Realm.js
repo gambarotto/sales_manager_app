@@ -10,9 +10,6 @@ import { getDefaultCategories } from './Categories'
 import { getDefaultSellers } from './Sellers'
 
 export const getRealm = async () => {
-    
-    // const config = Realm.Configuration()
-    // config.deleteRealmIfMigrationNeeded = true
 
     const realm = await Realm.open({
         schema: [CategorySchema, EntrySchema, SellerSchema, SalesPeriodSchema],
@@ -21,23 +18,31 @@ export const getRealm = async () => {
         deleteRealmIfMigrationNeeded: true,
         //createInRealm:'withValue',
         schemaVersion: 1,
-        
+
     })
     //dropDB(realm) //-- deleta o banco (reamldb / asyncStorage)
     initDB(realm)
 
+
     return realm
 }
 
-export const initDB = realm => {
-    initCategories(realm)
-    initSellers(realm)
+export const initDB = async realm => {
+    const init = await AsyncStorage.getItem('initDB')
+    if (init !== 'true') {
+        initCategories(realm)
+        initSellers(realm)
+        await AsyncStorage.setItem('initDB', 'true')
+    }
 }
 
-function initCategories(realm) {
-    const categoriesLength = realm.objects('Category').length
+async function initCategories(realm) {
 
-    if(categoriesLength === 0){
+    const categoriesLength = await realm.objects('Category').length
+    //console.log('length ,', categoriesLength);
+
+    if (categoriesLength === 0) {
+
         const categories = getDefaultCategories()
 
         try {
@@ -45,13 +50,15 @@ function initCategories(realm) {
                 categories.forEach(category => {
                     console.log(`initDB :: creating category: ${JSON.stringify(category)}`);
 
-                    realm.create('Category',category,true)
+                    realm.create('Category', category, true)
                 })
             })
+            //console.log(`initDB :: creating category `);
+
         } catch (error) {
             console.log(`initDB :: error creating category: ${error}`)
         }
-    }else {
+    } else {
         //console.log(`initDB :: DB already initialized...`);
 
     }
@@ -59,28 +66,30 @@ function initCategories(realm) {
 function initSellers(realm) {
     const sellersLength = realm.objects('Seller').length
 
-    if(sellersLength === 0){
+    if (sellersLength === 0) {
         const sellers = getDefaultSellers()
 
         try {
             realm.write(() => {
                 sellers.forEach(seller => {
                     console.log(`initDB :: creating seller: ${JSON.stringify(seller)}`);
-
-                    realm.create('Seller',seller,true)
+                    realm.create('Seller', seller, true)
                 })
             })
+            //console.log(`initDB :: creating seller `);
         } catch (error) {
             console.log(`initDB :: error creating seller: ${error}`)
         }
-    }else {
+    } else {
         //console.log(`initDB :: DB already initialized...`);
     }
 }
 
-async function cleanInitialized(){
+async function cleanInitialized() {
     try {
         await AsyncStorage.clear()
+
+
     } catch (error) {
         console.log(`clearDB AsyncStorage :: error : ${error}`)
     }

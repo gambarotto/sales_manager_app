@@ -103,10 +103,10 @@ export default function EntryForm({
 
     function validationFilter() {
 
-        if (product || qty || amount || category || seller || client || paymentMode) {
-            return false
-        } else {
-            return true
+        if (product && qty && amount && category && seller && client && paymentMode) {
+            console.log(product, qty, amount, category, seller ,client, paymentMode);
+            
+            addToList()
         }
     }
 
@@ -289,7 +289,7 @@ export default function EntryForm({
                         ): null
                     }
                     <ActionPrimaryButton
-                        onPress={validationFilter && addToList}
+                        onPress={validationFilter}
                         title='ADICIONAR' />
                 </ActionFooter>
                 ) }

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 import { getBalance } from '../services/Balance'
 
-export default function useBalance(days = 7){
+export default function useBalance(days = 7, initialPeriod, finalPeriod, idPeriod){
 
     const [balance, setBalance] = useState(0)
     const [balanceLiq, setBalanceLiq] = useState(0)
@@ -11,17 +11,22 @@ export default function useBalance(days = 7){
 
 
     useEffect(() => {
-
-        async function loadBalance(){
         
-             setBalance(await getBalance(days,'total'))
-             setBalanceLiq(await getBalance(days,'liquid'))
-             setBalance35(await getBalance(days,'35'))
-             setbalanceDiscountedValue(await getBalance(days,'discounted'))
+        async function loadBalance(){
+            let period = {
+                id:idPeriod,
+                initialDate:initialPeriod,
+                finalDate:finalPeriod
+            }
+    
+             setBalance(await getBalance(days,'total',period))
+             setBalanceLiq(await getBalance(days,'liquid',period))
+             setBalance35(await getBalance(days,'35',period))
+             setbalanceDiscountedValue(await getBalance(days,'discounted',period))
         }
         loadBalance()
 
-    },[days])
+    },[days, initialPeriod, finalPeriod, idPeriod])
 
     return [balance, balanceLiq, balance35, balanceDiscountedValue]
 } 

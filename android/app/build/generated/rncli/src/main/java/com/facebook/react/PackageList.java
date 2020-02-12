@@ -11,8 +11,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-import com.gestao_morena.BuildConfig;
-import com.gestao_morena.R;
+import br.com.dgc.controle_financeiro.BuildConfig;
+import br.com.dgc.controle_financeiro.R;
 
 // @react-native-community/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
